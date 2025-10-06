@@ -11,7 +11,11 @@ Proyecto de laboratorio de Robótica Industrial (UNAL 2025-II): programación de
 ## 🎥 Video del proceso
 ![Vista previa del laboratorio](Media/preview_lab.gif)
 
-A continuación se deja el link al video de la simulación realizada y del robot en la vida real.<br>
+A continuación se deja el link al video del funcionamiento que contiene: <br>
++ Simulación en Robot Studio de rutina de decoración con un solo pastel.<br>
++ Simulación en Robot Studio de rutina de decoración con dos pasteles, ejercicio de cambio de cuadrante.<br>
++ Rutina de decoración del Robot en la vida real.<br>
+
 🎥 [Ver video completo en YouTube](https://youtu.be/Cc66QLF5waU)
 
 ---
@@ -119,7 +123,7 @@ El código incluye:
 - Señales digitales y control de banda.
 📄 Ver el archivo completo aquí: [simulation/Module3_final.mod](simulation/Module3_final.mod)
 
-## 🧩 Código principal (`Module3_con_reflejo.mod`)
+## 🧩 Código Secundario (`Module3_con_reflejo.mod`)
 - Código del reflejo que se hace a la trayectoria reutilizando los targets creados previamente, en una Rutina que se llama `Path_40`.
 
 📄 Ver el archivo completo aquí: [simulation/reflejo](simulation/reflejo/Module3_con_reflejo)
