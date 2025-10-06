@@ -51,18 +51,14 @@ Se realizaron **dos procedimientos de calibración física** y una **verificaci�
 
    Se aplicó el método de **cuatro puntos**, logrando una mayor precisión al determinar el offset de la herramienta.
    <img src="Media/Calibración TCP.jpg" alt="Primera calibración TCP" width="50%">
+   
    <img src="Media/Calibración 2 TCP.jpg" alt="Segunda calibración TCP" width="50%">
 
 3. **Calibración en RobotStudio:**  
    El resultado fue validado en el entorno virtual. Se considera aceptable para aplicaciones de trazado y escritura. Al final se tomo la decisión de usar la calibración del simulador.
 
    <img src="Media/Calibración TCP en RobotStudio.png" alt="Calibración en RobotStudio" width="55%">
-
-**Comparación técnica:**  
-- El método de **1 punto** tiende a tener errores por orientación del marcador.  
-- El método de **2 o 4 puntos** reduce significativamente los errores de posición angular.  
-- La validación en RobotStudio confirmó que la orientación y el desplazamiento de la herramienta estaban correctamente parametrizados.
-
+   
 ---
 
 ## 🗺️ Plano de planta
