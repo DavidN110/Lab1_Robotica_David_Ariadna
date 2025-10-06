@@ -67,7 +67,7 @@ Se calibró su **Tool Center Point (TCP)** y se importó el modelo CAD a RobotSt
 La herramienta se compone de tres partes principales modeladas en CAD y exportadas en formato `.SAT` para su importación a RobotStudio:
 
 📷  
-<img src="Media/Brazo con Tool Simulado.png" alt="Brazo con herramienta simulada" width="60%">
+<img src="Media/Brazo con Tool Simulado.jpg" alt="Brazo con herramienta simulada" width="60%">
 
 
 - [📎 Herramienta_Soporte_Marcador](Docs/Herramienta_Soporte_Marcador.pdf) — estructura principal que sostiene el marcador.
@@ -84,12 +84,12 @@ Se realizaron **dos procedimientos de calibración física** y una **verificaci�
 1. **Calibración TCP (1):**  
    Se utilizó el método de **tres puntos** con el marcador fijo, permitiendo estimar el TCP manualmente.
 
-   <img src="Media/Calibración TCP.png" alt="Primera calibración TCP" width="50%">
+   <img src="Media/Calibración TCP.jpg" alt="Primera calibración TCP" width="50%">
 
 2. **Calibración TCP (2):**  
    Se aplicó el método de **cuatro puntos**, logrando una mayor precisión al determinar el offset de la herramienta.
 
-   <img src="Media/Calibración 2 TCP.png" alt="Segunda calibración TCP" width="50%">
+   <img src="Media/Calibración 2 TCP.jpg" alt="Segunda calibración TCP" width="50%">
 
 3. **Calibración en RobotStudio:**  
    El resultado fue validado en el entorno virtual. El error promedio entre el TCP real y simulado fue **inferior a 1.5 mm**, lo cual se considera aceptable para aplicaciones de trazado y escritura.
@@ -143,5 +143,5 @@ Representa la secuencia de eventos del programa principal, manejo de entradas, s
 - La calibración del TCP fue validada en RobotStudio, garantizando precisión en los trazos.  
 - La simulación coincidió con la implementación física, mostrando coherencia entre el entorno virtual y real.
 
-<img src="Media/Resultado Final.png" alt="Caja decorada con nombres y logo" width="65%">
+<img src="Media/Resultado Final.jpg" alt="Caja decorada con nombres y logo" width="65%">
 
