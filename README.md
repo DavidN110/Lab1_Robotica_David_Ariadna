@@ -50,7 +50,7 @@ La herramienta fue diseñada para sostener un marcador fijo al flange del robot.
 Se calibró su **Tool Center Point (TCP)** y se importó el modelo CAD a RobotStudio para comparar el tooldata real y virtual.
 
 📷  
-<img src="media/herramienta_real.jpg" alt="Herramienta del robot" width="50%">
+<img src="Media/Tool_real.jpg" alt="Herramienta del robot" width="50%">
 
 ---
 
