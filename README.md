@@ -117,8 +117,12 @@ El código incluye:
 - Función `GoHome()` que valida si todas las articulaciones están a 0°.
 - Rutinas `Path_10`, `Path_20`, `Path_30` para escribir los nombres y logo.
 - Señales digitales y control de banda.
-
 📄 Ver el archivo completo aquí: [simulation/Module3_final.mod](simulation/Module3_final.mod)
+
+## 🧩 Código principal (`Module3_con_reflejo.mod`)
+- Código del reflejo que se hace a la trayectoria reutilizando los targets creados previamente, en una Rutina que se llama `Path_40`.
+
+📄 Ver el archivo completo aquí: [simulation/reflejo](simulation/reflejo/Module3_con_reflejo)
 
 ---
 ## 🧩 Descripción de las funciones utilizadas
