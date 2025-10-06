@@ -219,6 +219,7 @@ El sistema integra control de **entradas (DI)** y **salidas (DO)** para la inter
 ---
 
 ### 🔹 Estructura general del código
+```text
 main()
 ├── GoHome()
 ├── IF DI_01 → Rutina de Decoración
@@ -233,7 +234,7 @@ main()
 │ ├── Espera de seguridad (WaitUntil)
 │ └── Retorno a HOME_Origen
 └── ENDWHILE
-
+```
 ---
 
 ### ✅ **Conclusión técnica**
