@@ -29,7 +29,7 @@ El proyecto incluye:
 ## ⚙️ Funcionamiento general
 - **Botón 1:** Inicia la rutina de decoración (enciende banda, escribe nombres y logo, regresa a home).  
 - **Botón 2:** Activa la rutina de mantenimiento (posiciona el robot para cambio de herramienta).  
-- **Luces DO01 / DO02:** Indican en qué modo está el robot.  
+- **Luces DO_01 / DO_02:** Indican en qué modo está el robot.  
 - **Conveyor_INV:** Activa la banda transportadora de salida.
 
 ---
