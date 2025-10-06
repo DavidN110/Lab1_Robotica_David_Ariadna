@@ -88,7 +88,7 @@ Se realizaron **dos procedimientos de calibración física** y una **verificaci�
    <img src="Media/Calibración 2 TCP.jpg" alt="Segunda calibración TCP" width="50%">
 
 3. **Calibración en RobotStudio:**  
-   El resultado fue validado en el entorno virtual. El error promedio entre el TCP real y simulado fue **inferior a 3.5 mm**, lo cual se considera aceptable para aplicaciones de trazado y escritura.
+   El resultado fue validado en el entorno virtual. Se considera aceptable para aplicaciones de trazado y escritura. Al final se tomo la decisión de usar la calibración del simulador.
 
    <img src="Media/Calibración TCP en RobotStudio.png" alt="Calibración en RobotStudio" width="55%">
 
