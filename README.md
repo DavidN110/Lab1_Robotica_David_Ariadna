@@ -62,6 +62,7 @@ Incluye:
 - Zona de trabajo delimitada con el workobject.
 
 📄 Ver imagen:
+
 <img src="Docs/Plano_de_planta.png" alt="Plano_de_planta" width="50%">
 
 ---
