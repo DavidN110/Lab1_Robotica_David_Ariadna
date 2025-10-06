@@ -70,6 +70,7 @@ Incluye:
 ## 🔁 Diagrama de flujo
 Representa la secuencia de eventos del programa principal, manejo de entradas, salidas y rutinas de mantenimiento.  
 📄 Ver: 
+
 ![Docs/Diagrama_de_flujo.png](Docs/Diagrama_de_flujo.png)
 
 ---
