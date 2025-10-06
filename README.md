@@ -16,7 +16,7 @@ A continuación se deja el link al video del funcionamiento que contiene: <br>
 + Simulación en Robot Studio de rutina de decoración con dos pasteles, ejercicio de cambio de cuadrante.<br>
 + Rutina de decoración del Robot en la vida real.<br>
 
-🎥 [Ver video completo en YouTube](https://youtu.be/Cc66QLF5waU)
+🎥 [Ver video completo en YouTube]([https://youtu.be/Cc66QLF5waU](https://youtu.be/ocZAAM295cw))
 
 ---
 
