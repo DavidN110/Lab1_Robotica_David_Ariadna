@@ -61,13 +61,13 @@ Incluye:
 - Caja de cartón paja (2×18×35 cm)  
 - Zona de trabajo delimitada con el workobject.
 
-📄 Ver imagen: [Docs/Plano_de_planta.png](Docs/Plano_de_planta.png)
+📄 Ver imagen: ![Docs/Plano_de_planta.png](Docs/Plano_de_planta.png)
 
 ---
 
 ## 🔁 Diagrama de flujo
 Representa la secuencia de eventos del programa principal, manejo de entradas, salidas y rutinas de mantenimiento.  
-📄 Ver: [Docs/Diagrama_de_flujo.png](docs/Diagrama_de_flujo.png)
+📄 Ver: ![Docs/Diagrama_de_flujo.png](docs/Diagrama_de_flujo.png)
 
 ---
 
