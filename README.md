@@ -34,7 +34,7 @@ El proyecto incluye:
 
 ---
 
-## 🧩 Código principal (`Module3_final.mod`)
+## 🧩 Código principal (`Module3.mod`)
 El código incluye:
 - Ciclo principal con condicionales `IF ... ELSEIF ... ENDIF`
 - Función `GoHome()` que valida si todas las articulaciones están a 0°.
