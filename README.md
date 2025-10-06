@@ -2,7 +2,7 @@
 Proyecto de laboratorio de Robótica Industrial (UNAL 2025-II): programación de un robot ABB IRB140 en RAPID con control de entradas/salidas digitales, simulación en RobotStudio y ejecución en robot real.
 
 # 🤖 Laboratorio No. 01 – Robótica Industrial 2025-II
-**Autores:** Ariadna Contreras Nossa y David Santiago Nagles Barajas 
+**Autores:** Ariadna Contreras Nossa y David Santiago Nagles Barajas <br>
 **Universidad Nacional de Colombia**  
 **Asignatura:** Robótica Industrial  
 
