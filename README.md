@@ -49,19 +49,14 @@ El código incluye:
 La herramienta fue diseñada para sostener un marcador fijo al flange del robot.  
 Se calibró su **Tool Center Point (TCP)** y se importó el modelo CAD a RobotStudio para comparar el tooldata real y virtual.
 
-📷  
-<img src="Media/Tool_real.jpg" alt="Herramienta del robot" width="50%">
-
-## 🧰 Diseño de la herramienta
-
 La herramienta se compone de tres partes principales modeladas en CAD y exportadas en formato `.SAT` para su importación a RobotStudio:
 
-- [📎 Herramienta_Soporte_Marcador](docs/Herramienta_Soporte_Marcador.pdf) — estructura principal que sostiene el marcador.
-- [📎 Herramienta_Tapa_Marcador](docs/Herramienta_Tapa_Marcador.pdf) — tapa de sujeción del plumón.
-- [📎 Herramienta_Despiece](docs/Herramienta_Despiece.pdf) — vista general con medidas y ensamble.
-- [📎 Herramienta_Soporte.sat](docs/Herramienta_Soporte.sat) — modelo 3D exportado para RobotStudio.
-
-<img src="media/herramienta_real.jpg" alt="Herramienta del robot" width="50%">
+- [📎 Herramienta_Soporte_Marcador](Docs/Herramienta_Soporte_Marcador.pdf) — estructura principal que sostiene el marcador.
+- [📎 Herramienta_Tapa_Marcador](Docs/Herramienta_Tapa_Marcador.pdf) — tapa de sujeción del plumón.
+- [📎 Herramienta_Despiece](Docs/Herramienta_Despiece.pdf) — vista general con medidas y ensamble.
+- [📎 Herramienta_Soporte.sat](Docs/Herramienta_Soporte.sat) — modelo 3D exportado para RobotStudio.
+📷  
+<img src="Media/Tool_real.jpg" alt="Herramienta del robot" width="50%">
 
 ---
 
