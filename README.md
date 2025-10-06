@@ -41,7 +41,8 @@ La herramienta se compone de tres partes principales modeladas en CAD y exportad
 - [📎 Herramienta_Despiece](Docs/Herramienta_Despiece.pdf) — vista general con medidas y ensamble.
 - [📎 Herramienta_Soporte.sat](Docs/Herramienta_Soporte.sat) — modelo 3D exportado para RobotStudio.
 
-![Herramienta_Despiece](Media/despiece.png)
+<img src="Media/despiece.png" alt="Herramienta_Despiece" width="50%">
+
   
 📷  
 <img src="Media/Tool_real.jpg" alt="Herramienta del robot" width="50%">
