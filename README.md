@@ -9,7 +9,9 @@ Proyecto de laboratorio de Robótica Industrial (UNAL 2025-II): programación de
 ---
 
 ## 🎥 Video del proceso
-[https://github.com/DavidN110/Lab1_Robotica_David_Ariadna/Docs/XXXX/video.mp4](https://youtu.be/Cc66QLF5waU)
+![Vista previa del laboratorio](media/preview_lab.gif)
+
+🎥 [Ver video completo en YouTube](https://youtu.be/Cc66QLF5waU)
 
 ---
 
