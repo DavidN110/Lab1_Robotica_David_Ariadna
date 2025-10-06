@@ -81,18 +81,14 @@ La herramienta se compone de tres partes principales modeladas en CAD y exportad
 
 Se realizaron **dos procedimientos de calibración física** y una **verificación en RobotStudio**:
 
-1. **Calibración TCP (1):**  
-   Se utilizó el método de **tres puntos** con el marcador fijo, permitiendo estimar el TCP manualmente.
+1. **Calibración TCP Manual:**  
 
-   <img src="Media/Calibración TCP.jpg" alt="Primera calibración TCP" width="50%">
-
-2. **Calibración TCP (2):**  
    Se aplicó el método de **cuatro puntos**, logrando una mayor precisión al determinar el offset de la herramienta.
-
+   <img src="Media/Calibración TCP.jpg" alt="Primera calibración TCP" width="50%">
    <img src="Media/Calibración 2 TCP.jpg" alt="Segunda calibración TCP" width="50%">
 
 3. **Calibración en RobotStudio:**  
-   El resultado fue validado en el entorno virtual. El error promedio entre el TCP real y simulado fue **inferior a 1.5 mm**, lo cual se considera aceptable para aplicaciones de trazado y escritura.
+   El resultado fue validado en el entorno virtual. El error promedio entre el TCP real y simulado fue **inferior a 3.5 mm**, lo cual se considera aceptable para aplicaciones de trazado y escritura.
 
    <img src="Media/Calibración TCP en RobotStudio.png" alt="Calibración en RobotStudio" width="55%">
 
