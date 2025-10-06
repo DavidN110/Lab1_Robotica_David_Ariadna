@@ -11,7 +11,7 @@ Proyecto de laboratorio de Robótica Industrial (UNAL 2025-II): programación de
 ## 🎥 Video del proceso
 ![Vista previa del laboratorio](Media/preview_lab.gif)
 
-A continuación se deja el link del video del funcionamiento de la simulación y del robot en la vida real.
+A continuación se deja el link al video de la simulación realizada y del robot en la vida real.<br>
 🎥 [Ver video completo en YouTube](https://youtu.be/Cc66QLF5waU)
 
 ---
