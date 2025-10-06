@@ -26,11 +26,26 @@ El proyecto incluye:
 
 ---
 
-## ⚙️ Funcionamiento general
-- **Botón 1:** Inicia la rutina de decoración (enciende banda, escribe nombres y logo, regresa a home).  
-- **Botón 2:** Activa la rutina de mantenimiento (posiciona el robot para cambio de herramienta).  
-- **Luces DO_01 / DO_02:** Indican en qué modo está el robot.  
-- **Conveyor_INV:** Activa la banda transportadora de salida.
+## ⚙️ Lógica y señales digitales
+
+El sistema se controla Mediante dos entradas digitales y dos salidas:
+
+- **DI_01:** Botón de inicio de rutina de decoración  
+- **DI_02:** Botón de rutina de mantenimiento  
+- **DO_01:** Luz indicadora de proceso activo  
+- **DO_02:** Luz indicadora de mantenimiento  
+
+Además, se controló la **banda transportadora** a través de la salida `Conveyor_INV`.
+
+La lógica completa fue programada en RAPID usando condicionales `IF–ELSEIF–ENDIF` y bucles `WHILE TRUE`.
+
+<img src="Media/Botones Lógica.png" alt="Diagrama de botones y lógica I/O" width="60%">
+<img src="Media/Rutina Banda.png" alt="Rutina de control de la banda transportadora" width="60%">
+
+**Resumen del funcionamiento:**
+1. Al presionar **Botón 1**, se activa la banda, se realiza la decoración (Paths 10, 20, 30) y se vuelve a home.  
+2. Al presionar **Botón 2**, el robot entra en modo mantenimiento, encendiendo la luz DO_02.  
+3. Al finalizar, ambas rutinas devuelven el robot a la posición `GoHome` con verificación de 0° en cada eje.
 
 ---
 
@@ -51,12 +66,40 @@ Se calibró su **Tool Center Point (TCP)** y se importó el modelo CAD a RobotSt
 
 La herramienta se compone de tres partes principales modeladas en CAD y exportadas en formato `.SAT` para su importación a RobotStudio:
 
+📷  
+<img src="Media/Brazo con Tool Simulado.png" alt="Brazo con herramienta simulada" width="60%">
+
+
 - [📎 Herramienta_Soporte_Marcador](Docs/Herramienta_Soporte_Marcador.pdf) — estructura principal que sostiene el marcador.
 - [📎 Herramienta_Tapa_Marcador](Docs/Herramienta_Tapa_Marcador.pdf) — tapa de sujeción del plumón.
 - [📎 Herramienta_Despiece](Docs/Herramienta_Despiece.pdf) — vista general con medidas y ensamble.
 - [📎 Herramienta_Soporte.sat](Docs/Herramienta_Soporte.sat) — modelo 3D exportado para RobotStudio.
 📷  
 <img src="Media/Tool_real.jpg" alt="Herramienta del robot" width="50%">
+
+### 🎯 Calibración del TCP
+
+Se realizaron **dos procedimientos de calibración física** y una **verificación en RobotStudio**:
+
+1. **Calibración TCP (1):**  
+   Se utilizó el método de **tres puntos** con el marcador fijo, permitiendo estimar el TCP manualmente.
+
+   <img src="Media/Calibración TCP.png" alt="Primera calibración TCP" width="50%">
+
+2. **Calibración TCP (2):**  
+   Se aplicó el método de **cuatro puntos**, logrando una mayor precisión al determinar el offset de la herramienta.
+
+   <img src="Media/Calibración 2 TCP.png" alt="Segunda calibración TCP" width="50%">
+
+3. **Calibración en RobotStudio:**  
+   El resultado fue validado en el entorno virtual. El error promedio entre el TCP real y simulado fue **inferior a 1.5 mm**, lo cual se considera aceptable para aplicaciones de trazado y escritura.
+
+   <img src="Media/Calibración TCP en RobotStudio.png" alt="Calibración en RobotStudio" width="55%">
+
+**Comparación técnica:**  
+- El método de **1 punto** tiende a tener errores por orientación del marcador.  
+- El método de **2 o 4 puntos** reduce significativamente los errores de posición angular.  
+- La validación en RobotStudio confirmó que la orientación y el desplazamiento de la herramienta estaban correctamente parametrizados.
 
 ---
 
@@ -94,6 +137,11 @@ Representa la secuencia de eventos del programa principal, manejo de entradas, s
 ---
 
 ## 🏁 Conclusiones
-- Se logró la integración de hardware y software con señales I/O.  
-- La rutina de decoración cumple las condiciones del laboratorio (home, luces, mantenimiento).  
-- La simulación fue validada con RobotStudio y ejecutada con éxito en el robot ABB real.
+
+- Se logró integrar exitosamente el control de **entradas y salidas digitales** en un robot ABB IRB 140.  
+- El sistema replica un entorno industrial básico de decoración automatizada con control de banda y luces.  
+- La calibración del TCP fue validada en RobotStudio, garantizando precisión en los trazos.  
+- La simulación coincidió con la implementación física, mostrando coherencia entre el entorno virtual y real.
+
+<img src="Media/Resultado Final.png" alt="Caja decorada con nombres y logo" width="65%">
+
